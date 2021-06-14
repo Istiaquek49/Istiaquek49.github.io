@@ -68,7 +68,7 @@ function RemoveColumn()
     numCols--;//column minus by 1
 }
 
-function fillAll()
+function FillAll()
 {
     let color = document.getElementById("colorchooser").value;//stores one color 
     let allgrids = document.querySelectorAll('td').forEach(td => td.style.backgroundColor = color);//takes all grids and changes color to one

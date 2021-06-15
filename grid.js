@@ -1,6 +1,6 @@
 let numRows = 1;
 let numCols = 1;
-let colorSelected;
+let choosencolor;
 
 function AddRow() 
 {
@@ -90,6 +90,7 @@ function Clear() {
 }
 
 function Selected() {
-    colorSelected = document.getElementById("colorchooser").value;
-    document.getElementById("initial-box").style.backgroundColor = colorSelected;
+    choosencolor = document.getElementById("colorchooser").value;
+    document.getElementById("initial-box").style.backgroundColor = choosencolor;
 }
+
